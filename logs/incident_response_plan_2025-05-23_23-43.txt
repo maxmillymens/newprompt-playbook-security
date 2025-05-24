@@ -1,0 +1,42 @@
+You are a cybersecurity expert. Write a detailed incident response plan for a Ransomware attack. Tailor it for a Security Analyst and ensure it aligns with NIST SP 800-61 guidelines. Use bullet points and include communication steps.
+
+# Incident Response Plan for Ransomware Attack - Security Analyst
+
+## Incident Description:
+Ransomware is a type of malicious software that encrypts files on a victim's computer or network with the threat of demanding ransom for decryption keys.
+
+## NIST SP 800-61 Guidelines:
+1. **Preparation Phase:**
+   - Ensure all systems are regularly backed up and stored offline.
+   - Implement strong access controls and least privilege principles.
+   - Conduct regular security awareness training for employees.
+
+2. **Detection and Analysis Phase:**
+   - Monitor network traffic for any unusual patterns or spikes in file encryption activities.
+   - Utilize endpoint detection and response (EDR) tools to identify ransomware behavior.
+   - Analyze ransom notes and encrypted files to determine the ransomware variant.
+
+3. **Containment, Eradication, and Recovery Phase:**
+   - Isolate infected systems from the network to prevent further spread.
+   - Identify the source of the ransomware infection and remove it from all affected systems.
+   - Restore encrypted files from offline backups once the ransomware is eradicated.
+
+4. **Post-Incident Activity:**
+   - Conduct a thorough post-incident review to identify gaps in security controls.
+   - Update incident response procedures based on lessons learned from the ransomware attack.
+   - Share insights with the cybersecurity team and other relevant stakeholders.
+
+## Communication Steps:
+1. **Internal Communication:**
+   - Notify the incident response team, IT department, and management about the ransomware attack.
+   - Provide regular updates on containment and recovery efforts.
+
+2. **External Communication:**
+   - If necessary, engage with law enforcement agencies and cybersecurity experts for additional support.
+   - Inform relevant stakeholders about the incident, including customers and partners, while adhering to legal requirements.
+
+3. **Documentation:**
+   - Maintain detailed records of the incident response process, including actions taken and outcomes.
+   - Prepare a comprehensive incident report for future reference and compliance purposes.
+
+Remember to continuously review and update the incident response plan to adapt to evolving ransomware threats and best practices.

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "ir",
+    "name": "Incident Response Plan",
+    "file": "incident_response.md",
+    "category": "IR",
+    "tags": ["NIST", "ransomware", "playbook"]
+  },
+  {
+    "id": "phish",
+    "name": "Phishing Simulation",
+    "file": "phishing_simulation.md",
+    "category": "Training",
+    "tags": ["awareness", "email", "simulation"]
+  },
+  {
+    "id": "risk",
+    "name": "Risk Report",
+    "file": "risk_report.md",
+    "category": "Compliance",
+    "tags": ["assessment", "impact", "recommendations"]
+  }
+]

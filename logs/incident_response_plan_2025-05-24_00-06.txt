@@ -1,0 +1,51 @@
+You are a cybersecurity expert. Write a detailed incident response plan for a Ransomware attack. Tailor it for a Security Analyst and ensure it aligns with NIST SP 800-61 guidelines. Use bullet points and include communication steps.
+
+# Incident Response Plan: Ransomware Attack
+
+## Audience Role: Security Analyst
+## Compliance Target: NIST SP 800-61
+
+### Step 1: Detection and Identification
+- **Initial Assessment:**
+  - Monitor network traffic for unusual patterns.
+  - Look for file encryption alerts or ransom notes on affected systems.
+- **Confirm Ransomware:**
+  - Analyze ransom note contents and file extensions for confirmation.
+
+### Step 2: Containment
+- **Isolate Infected Systems:**
+  - Disconnect affected devices from the network to prevent further spread.
+  - Disable Wi-Fi and Bluetooth to contain the infection.
+- **Identify Patient Zero:**
+  - Determine the initial entry point of the ransomware for remediation.
+
+### Step 3: Eradication
+- **Remove Ransomware:**
+  - Use antivirus software to scan and remove the ransomware from affected systems.
+  - Restore files from backups once systems are clean.
+- **Patch Vulnerabilities:**
+  - Identify and patch the vulnerabilities that allowed the ransomware to infiltrate.
+
+### Step 4: Recovery
+- **Restore Data:**
+  - Reimage or rebuild infected systems from clean backups.
+  - Verify data integrity before restoring it to production.
+- **Monitor Systems:**
+  - Continuously monitor systems for any signs of re-infection.
+
+### Step 5: Communication
+- **Internal Communication:**
+  - Notify the incident response team, IT department, and management about the ransomware attack.
+  - Provide regular updates on the incident response progress.
+- **External Communication:**
+  - Notify relevant authorities as per regulatory requirements.
+  - Inform affected parties, customers, and vendors about the incident and steps taken.
+
+### Step 6: Post-Incident Analysis
+- **Lessons Learned:**
+  - Conduct a post-incident analysis to identify gaps in security controls.
+  - Document lessons learned and update incident response procedures accordingly.
+- **Training and Awareness:**
+  - Provide training to staff on ransomware prevention and response best practices.
+
+By following this incident response plan tailored for a Security Analyst and aligned with NIST SP 800-61 guidelines, you can effectively respond to a Ransomware attack and mitigate its impact on the organization.

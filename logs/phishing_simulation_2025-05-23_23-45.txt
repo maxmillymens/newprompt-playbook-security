@@ -1,0 +1,28 @@
+## Goal:
+Generate a phishing email simulation designed for training purposes targeting entry-level employees.
+
+## Input Variables:
+- Threat Level: Medium
+- Target Audience: Entry-level Employee
+- Simulation Purpose: Training
+
+## Example Prompt:
+You are a cybersecurity trainer. Create a medium-threat-level phishing email simulation for an entry-level employee. The email should contain a malicious attachment and a sense of urgency.
+
+## Output Requirements:
+- Email Subject Line: "Urgent: Action Required - Payroll Update Form"
+- From Field (spoofed): Payroll Department <payroll@companyemail.com>
+- Email Body: 
+  "Dear Employee,
+
+  Our payroll system has been updated, and we require all employees to fill out the attached form with their updated information. Failure to do so within the next 24 hours will result in a delay in your salary for the upcoming month.
+
+  Please download the attached form and submit it as soon as possible.
+
+  Thank you,
+  Payroll Department"
+
+- Red Flags Summary: 
+  - Urgency in the email
+  - Unsolicited attachment
+  - Threat of delayed salary

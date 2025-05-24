@@ -1,0 +1,29 @@
+# Phishing Simulation Design
+
+## Goal:
+Generate a realistic phishing email simulation tailored for user awareness training.
+
+## Input Variables:
+- Threat Level: High
+- Target Audience: Entry-level Employee
+- Simulation Purpose: Training
+
+## Example Prompt:
+You are a cybersecurity trainer. Create a high-threat-level phishing email simulation for an entry-level employee.
+It should contain a malicious attachment, a sense of urgency, and a request for sensitive information.
+
+## Output Requirements:
+- Email Subject Line: Urgent: Action Required - Payroll Update
+- From Field (spoofed): HR Department <hr@payrollupdates.com>
+- Email Body:
+  "Dear Employee,
+
+  Due to recent system upgrades, we require you to update your payroll information immediately. Please download the attached form and fill it out accurately. Failure to comply within 24 hours will result in suspension.
+
+  Thank you,
+  HR Department"
+
+- Red Flags Summary:
+  1. Urgency and threat of suspension.
+  2. Request for sensitive information.
+  3. Suspicious sender email address.
